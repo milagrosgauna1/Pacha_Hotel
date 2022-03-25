@@ -1,0 +1,102 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    color: white;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    color: black;
+    background-color:chartreuse;
+    padding: 15px;
+    margin-top: 0;
+}
+
+nav{
+    display: grid;
+    grid-template-columns:200fr 200fr 200fr 200fr 200fr;
+    background-color: rgb(196, 196, 196);
+    padding:0px;
+    margin-top: 0px;
+}
+
+.transf:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+
+div{
+    background-color: aliceblue;
+    margin: 7px;
+}
+
+section{
+    color: black;
+    padding: 40px;
+    display: grid;
+    grid-template-rows: 25fr 75fr 25fr 75fr 25fr 75fr;
+}
+
+.introducion__h1{
+    color: black;
+    padding: 50px;
+}
+
+.introducion__p{
+    color: hotpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    border: 15px; color: black;
+    position: sticky;
+    top: 0px;
+
+}
+
+.form__h1{
+    position: relative;
+    bottom: 70px;
+}
+
+footer{  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkgreen;
+    padding:30px;
+    margin-bottom: 0;
+}
+
+.form__footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    background-color:darkgreen;
+    padding: 30px;
+    padding-bottom: 0px;
+    border: 30px solid coral;
+}
+
+.p__footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+}
+
+.experiencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
