@@ -45,16 +45,45 @@
           </div>
         </nav>
       </header>
-
-   <form>
-       <label for="check_in">ingreso</label>
-       <input type="calendar" name="ingreso">
-       <label for="check_out">salida</label>
-       <input type="calendar" horario=salida>
-       <label for="numero_de_huepedes">adultos</label>
-       <input type="number" huespedes=adultos>
-       <input type="submit" value="Enviar formulario"/>
-   </form>
+    
+      <div class="row g-2">
+        <div class="col-md">
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                <option selected>Destino</option>
+                <option value="1">Argentina</option>
+                <option value="2">Uruguay</option>
+                <option value="3">Chile</option>
+              </select>
+              <label for="floatingSelectGrid">Works with selects</label>
+            </div>
+          </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="calendar" class="form-control" id="floatingInputGrid" placeholder="calendar" value="Ingreso">
+            <label for="floatingInputGrid">ingreso</label>
+          </div>
+        </div>
+        <div class="col-md">
+            <div class="form-floating">
+              <input type="calendar" class="form-control" id="floatingInputGrid" placeholder="calendar" value="Salida">
+              <label for="floatingInputGrid">salida</label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="number" class="form-control" id="floatingInputGrid" placeholder="amount" value="Huespedes">
+              <label for="floatingInputGrid">Huespedes</label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="submit" class="form-control" id="floatingInputGrid" placeholder="Enviar" value="Enviar">
+              <label for="floatingInputGrid">submit</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Revisar disponibilidad</button>
+      </div>
 
     <section>
         <h1 class="intoducion__h1">Que es Pacha</h1>
