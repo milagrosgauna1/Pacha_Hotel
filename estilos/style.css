@@ -4,7 +4,7 @@ margin: 0;
 }
 
 body{
-    color: white;
+    color: black;
 }
 
 header{
@@ -33,7 +33,54 @@ header{
 
 .row{
     background-color: white;
-    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
+    position: sticky;
+    top: 0%;
+    margin-top:  0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.row--hab{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:5px ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
+}
+.row__dis--hab{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:5px ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
+}
+
+.comodidades{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.card{
+    display: flex;
+    margin-top: 30px;
+}
+
+.tarifa{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+
+.finale{
+    margin-bottom: 30px;
 }
 
 section{
@@ -51,18 +98,6 @@ section{
 .introducion__p{
     color: hotpink;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-form{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 10px;
-    color: black;
-    background-color: rgb(241, 241, 241);
-    border: 15px; color: black;
-    position: sticky;
-    top: 0px;
-
 }
 
 .form__h1{
