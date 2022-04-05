@@ -1,6 +1,14 @@
 *{
-padding: 0;
-margin: 0;
+padding: 0px;
+margin: 0px;
+}
+
+sectionindex{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:center;
+    align-items: center;
 }
 
 body{
@@ -31,6 +39,11 @@ header{
     transition: all 2s;
 }
 
+.img-fluid{
+    height: 100%;
+    width: 100%;
+}
+
 .row{
     background-color: white;
     padding: 5px;
@@ -38,7 +51,7 @@ header{
     box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
     position: sticky;
     top: 0%;
-    margin-top:  0px;
+    margin-top: -45px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -47,15 +60,15 @@ header{
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top:5px ;
+    margin-top:5px;
     padding: 5px;
     border-radius: 5px;
     box-shadow: rgb(0 0 0 / 15%) 0px 0px 8px;
 }
 .row__dis--hab{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
     margin-top:5px ;
     padding: 5px;
     border-radius: 5px;
@@ -83,21 +96,32 @@ header{
     margin-bottom: 30px;
 }
 
-section{
-    color: black;
-    padding: 40px;
-    display: grid;
-    grid-template-rows: 25fr 75fr 25fr 75fr 25fr 75fr;
+.historia{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
 }
 
-.introducion__h1{
-    color: black;
-    padding: 50px;
+.distinguir{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.distinguidos{
+    display: flex;
+    flex-direction: column;
+    border: 20px;
+    margin: 5px;
 }
 
 .introducion__p{
-    color: hotpink;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(161, 160, 160);
 }
 
 .form__h1{
@@ -129,11 +153,35 @@ footer{
     color: white;
 }
 
+.animate{
+    background-color: darkgreen;
+    height: 220px;
+    width: 100%;
+}
+
+.textanimate{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
 .experiencias{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    color: aqua;
-    padding: 0px;
-    margin: 0px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.expfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 5px;
+}
+
+.separador{
+    padding-top: 30px;
 }
