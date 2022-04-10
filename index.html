@@ -42,29 +42,86 @@
   </header>
 
   <sectionindex>
-    <img src="./imagenes/indez0.png" class="img-fluid" alt="fondo">
+    <div class="col-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/indez99.png" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/indez6.png" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/cord155.jpg" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/hab.compartida44.jpg" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/indez2.png" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/indez0.png" class="d-block w-100 img-fluid" alt="Estandar">
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" style="width: 5%" type="button"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="width: 5%" type="button"
+          data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
   </sectionindex>
 
-  <div class="row g-1 after">
-    <div class="col-md">
+  <div class="row--index g-1">
+    <div class="col-md" style="margin-right: 5px">
       <div class="form-floating">
-        <input type="calendar" class="form-control" id="floatingInputGrid" placeholder="calendar" value="Ingreso">
+        <input type="date" class="form-control" id="floatingInputGrid" placeholder="Ingreso" value="Ingreso">
         <label for="floatingInputGrid">Ingreso</label>
       </div>
     </div>
-    <div class="col-md">
+    <div class="col-md" style="margin-right: 5px">
       <div class="form-floating">
-        <input type="calendar" class="form-control" id="floatingInputGrid" placeholder="calendar" value="Salida">
-        <label for="floatingInputGrid">salida</label>
+        <input type="date" class="form-control" id="floatingInputGrid" placeholder="Salida" value="Salida">
+        <label for="floatingInputGrid">Salida</label>
       </div>
     </div>
-    <div class="col-md">
+    <div class="col-md" style="margin-right: 5px">
       <div class="form-floating">
-        <input type="number" class="form-control" id="floatingInputGrid" placeholder="amount" value="Huespedes">
-        <label for="floatingInputGrid">Huespedes</label>
+        <input type="number" class="form-control" id="floatingInputGrid" placeholder="Huespedes" value="Huespedes">
+        <label for="floatingInputGrid">Huéspedes</label>
       </div>
     </div>
-    <button type="submit" class="btn btn-success">Revisar disponibilidad</button>
+    <button type="submit" class="btn btn-success">Revisar disponibilidad
+      <a href="./secciones/habitaciones.html"></a>
+    </button>
+  </div>
+
+  <div class="disponibilidad--index">
+    <button class="btn btn-success">Revisar disponibilidad
+      <a href="./secciones/habitaciones.html"></a>
+    </button>
   </div>
 
   <div class="historia">
@@ -82,49 +139,45 @@
   </div>
 
   <section class="distinguir">
-    <div class="distinguidos" style="width: 20rem;">
+    <div class="distinguidos hover cambio" style="width: 20rem;">
       <img src="./imagenes/hab.estandar1.jpg" class="card-img-top" alt="Habitaciones Estandar">
       <div class="card-body">
         <h5 class="card-title">Habitaciones Estandar</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+        <p class="card-text">Nuestra opción clasica: comoda y privada. Disfruta de una cama comoda y baño privado</p>
         <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
       </div>
     </div>
 
-    <div class="distinguidos" style="width: 20rem;">
+    <div class="distinguidos hover cambio" style="width: 20rem;">
       <img src="./imagenes/hab.suite1.png" class="card-img-top" alt="Habitaciones Suite">
       <div class="card-body">
         <h5 class="card-title">Habitaciones Suite</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+        <p class="card-text">Grande y hermosa. Disfruta de una cama comoda, living, balcón y baño privado</p>
         <a href="./secciones/habitaciones.html" class="btn btn-primary">Reserevar</a>
       </div>
     </div>
 
-    <div class="distinguidos" style="width: 20rem;">
+    <div class="distinguidos hover cambio" style="width: 20rem;">
       <img src="./imagenes/hab.compartida60.jpg" class="card-img-top" alt="Habitaciones Compartidas">
       <div class="card-body">
         <h5 class="card-title">Habitaciones Compartidas</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+        <p class="card-text">Para quienes planean conocer gente y ahorrar. Baño compartido.</p>
         <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
       </div>
     </div>
 
-    <div class="distinguidos" style="width: 20rem;">
+    <div class="distinguidos hover cambio" style="width: 20rem;">
       <img src="./imagenes/hab.familiarrr.jpg" class="card-img-top" alt="Habitaciones Familiares">
       <div class="card-body">
         <h5 class="card-title">Habitaciones Familiares</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
+        <p class="card-text">Para grupos grandes o familias: cómoda y luminosa.</p>
         <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
       </div>
     </div>
   </section>
 
   <img src="./imagenes/fondo11.png" class="w-100 separador" alt="separador">
-  
+
   <section class="historia">
     <h1>Dejate sorprender, experimenta de otra manera</h1>
     <h4>Experiencias</h4>
@@ -138,22 +191,28 @@
     <p class="introducion__p">Si te gusta nuestro espacio, dejanos un mensaje y estaremos felices de ayudarte</p>
   </section>
 
-
   <footer>
-    <form class="form__footer ">
-      <label for="email">Email</label>
-      <input type="text" email="email">
-      <input type="submit" value="Enviar formulario" />
-      <h1 class="form__h1">Contactanos</h1>
+    <form class="form__footer col-5">
+      <h3>Contactanos</h3>
+      <div class="form-floating" style="padding-bottom: 5px">
+        <input type="email" class="form-control" id="floatingInputGrid" placeholder="email" value="Email">
+        <label for="floatingInputGrid">Dejanos tu email</label>
+      </div>
+      <button type="submit" class="btn btn-success">Reservar</button>
     </form>
 
-    <section class="p__footer">
-      <h1>PACHA VEGAN HOTEL</h1>
-      <p>Cordoba Capital | Argentina
-        +123 456789
-        hello@pachahotel.com
-      </p>
+    <section class="p__footer col-6">
+      <h1 style="text-align: center">PACHA VEGAN HOTEL</h1>
+      <p style="text-align: center">Cordoba Capital | Argentina</p>
+      <p style="text-align: center">+123 456789</p>
+      <p style="text-align: center">hello@pachahotel.com</p>
     </section>
+
+    <div class="col-1 rs_footer">
+      <img src="./imagenes/rrss_w.png" class="w-50" alt="whatsapp">
+      <img src="./imagenes/rrss_i.png" class="w-50" alt="instagram">
+      <img src="./imagenes/rrss_f.png" class="w-50" alt="facebook">
+    </div>
   </footer>
 
 
