@@ -1,0 +1,44 @@
+.animate {
+    background-color: darkgreen;
+    height: 130px;
+    width: 100%;
+    
+    .textanimate {
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        padding-top: 25px;
+    }
+}
+
+.doble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    
+    .distinguidos {
+        display: flex;
+        flex-direction: column;
+        border: 20px;
+        margin: 5px;
+    }
+}
+
+.triple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .distinguir {
+        display: flex;
+        justify-content: space-around;
+        
+        .distinguidos {
+            display: flex;
+            flex-direction: column;
+            border: 20px;
+            margin: 5px;
+        }
+    }
+}
