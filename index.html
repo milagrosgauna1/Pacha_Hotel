@@ -16,11 +16,11 @@
 
 <body>
 
-  <header>
+  <header class="col-12">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
+      <div class="container-fluid" style="padding-left: 30px">
         <a class="navbar-brand" href="./index.html">
-          <img src="./imagenes/Your-Logo.jpg" class="Logo" alt="Logo" width="25%">
+          <img src="./imagenes/logopa.png" class="Logo" alt="Logo" width="10%">
         </a>
 
         <div class="navbar-collapse d-flex justify-content-around" id="navbarNav"></div>
@@ -127,13 +127,13 @@
   </div>
 
   <div class="historia">
-    <h1>Una experiencia de conexión diferente</h1>
-    <h5>¿Que es Pacha?</h5>
+    <h1 class="introduccion__in" style="margin-bottom: 12px">Una experiencia de conexión diferente</h1>
+    <h5 class="introduccion__ba" style="margin-bottom: 15px">¿Que es Pacha?</h5>
     <p class="introducion__p"> Un alojamiento para viajeros con conciencia ecológica, Pacha Vegan Hotel ofrece una
       experiencia de estilo de vida única. Nuestras amplias habitaciones cuentan con interiores modernos, terrazas
       privadas.
       Experimentá la deliciosa cocina basada en plantas de nuestro restaurante, relajate en la piscina de agua salada, y
-      disfrutá de las distantas actividades de conexión con vos mismo como nuestras clases de yoga o del lugar con
+      disfrutá de las distintas actividades de conexión con vos mismo como nuestras clases de yoga o de conexión con el lugar con
       nuestras caminatas guiadas.
       Ideal para nómadas digitales, mochileros y aventureros. Un lugar donde puedas conectar con la naturaleza y
       sentirte como en casa.
@@ -141,39 +141,39 @@
   </div>
 
   <section class="distinguir">
-    <div class="distinguidos hover cambio" style="width: 20rem;">
+    <div class="distinguidos hover">
       <img src="./imagenes/hab.estandar1.jpg" class="card-img-top" alt="Habitaciones Estandar">
-      <div class="card-body">
-        <h5 class="card-title">Habitaciones Estandar</h5>
-        <p class="card-text">Nuestra opción clasica: comoda y privada. Disfruta de una cama comoda y baño privado</p>
-        <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title introduccion__ba introduccion__ba--ba">Habitaciones Estandar</h5>
+        <p class="card-text introducion__p introduccion__p--p" style="color: black;">Nuestra opción clasica: comoda y privada. Disfruta de una cama comoda y baño privado</p>
+        <a href="./secciones/habitaciones.html" class="btn btn-warning">Reservar</a>
       </div>
     </div>
 
-    <div class="distinguidos hover cambio" style="width: 20rem;">
+    <div class="distinguidos hover">
       <img src="./imagenes/hab.suite1.png" class="card-img-top" alt="Habitaciones Suite">
-      <div class="card-body">
-        <h5 class="card-title">Habitaciones Suite</h5>
-        <p class="card-text">Grande y hermosa. Disfruta de una cama comoda, living, balcón y baño privado</p>
-        <a href="./secciones/habitaciones.html" class="btn btn-primary">Reserevar</a>
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title introduccion__ba introduccion__ba--ba">Habitaciones Suite</h5>
+        <p class="card-text introducion__p introduccion__p--p" style="color: black;">Grande y hermosa. Disfruta de una cama comoda, living, balcón y baño privado</p>
+        <a href="./secciones/habitaciones.html" class="btn btn-warning">Reserevar</a>
       </div>
     </div>
 
-    <div class="distinguidos hover cambio" style="width: 20rem;">
+    <div class="distinguidos hover">
       <img src="./imagenes/hab.compartida60.jpg" class="card-img-top" alt="Habitaciones Compartidas">
-      <div class="card-body">
-        <h5 class="card-title">Habitaciones Compartidas</h5>
-        <p class="card-text">Para quienes planean conocer gente y ahorrar. Baño compartido.</p>
-        <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title introduccion__ba introduccion__ba--ba">Habitaciones Compartidas</h5>
+        <p class="card-text introducion__p introduccion__p--p" style="color: black;">Diferentes opciones para quienes planean conocer gente y ahorrar. Baño compartido.</p>
+        <a href="./secciones/habitaciones.html" class="btn btn-warning">Reservar</a>
       </div>
     </div>
 
-    <div class="distinguidos hover cambio" style="width: 20rem;">
+    <div class="distinguidos hover">
       <img src="./imagenes/hab.familiarrr.jpg" class="card-img-top" alt="Habitaciones Familiares">
-      <div class="card-body">
-        <h5 class="card-title">Habitaciones Familiares</h5>
-        <p class="card-text">Para grupos grandes o familias: cómoda y luminosa.</p>
-        <a href="./secciones/habitaciones.html" class="btn btn-primary">Reservar</a>
+      <div class="card-body" style="text-align: center">
+        <h5 class="card-title introduccion__ba introduccion__ba--ba">Habitaciones Familiares</h5>
+        <p class="card-text introducion__p introduccion__p--p" style="color: black;">Para grupos grandes o familias: cómoda, espaciosa y luminosa. Cuna a disposición.</p>
+        <a href="./secciones/habitaciones.html" class="btn btn-warning">Reservar</a>
       </div>
     </div>
   </section>
@@ -193,8 +193,8 @@
     <p class="introducion__p">Si te gusta nuestro espacio, dejanos un mensaje y estaremos felices de ayudarte</p>
   </section>
 
-  <footer>
-    <form class="form__footer col-5">
+  <footer style="columns: 12; justify-content: space-around;">
+    <form class="form__footer">
       <h3>Contactanos</h3>
       <div class="form-floating" style="padding-bottom: 5px">
         <input type="email" class="form-control" id="floatingInputGrid" placeholder="email" value="Email">
@@ -203,17 +203,17 @@
       <button type="submit" class="btn btn-success">Reservar</button>
     </form>
 
-    <section class="p__footer col-6">
+    <section class="p__footer">
       <h1 style="text-align: center">PACHA VEGAN HOTEL</h1>
-      <p style="text-align: center">Cordoba Capital | Argentina</p>
-      <p style="text-align: center">+123 456789</p>
-      <p style="text-align: center">hello@pachahotel.com</p>
+      <p style="text-align: center; margin-bottom: 5px;">Cordoba Capital | Argentina</p>
+      <p style="text-align: center; margin-bottom: 5px;">+123 456789</p>
+      <p style="text-align: center; margin-bottom: 5px;">hello@pachahotel.com</p>
     </section>
 
-    <div class="col-1 rs_footer">
-      <img src="./imagenes/rrss_w.png" class="w-50" alt="whatsapp">
-      <img src="./imagenes/rrss_i.png" class="w-50" alt="instagram">
-      <img src="./imagenes/rrss_f.png" class="w-50" alt="facebook">
+    <div class="rs_footer">
+      <img src="./imagenes/rrss_w.png" class="w-25" alt="whatsapp">
+      <img src="./imagenes/rrss_i.png" class="w-25" alt="instagram">
+      <img src="./imagenes/rrss_f.png" class="w-25" alt="facebook">
     </div>
   </footer>
 

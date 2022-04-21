@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0px;
     margin: 0px;
 }
@@ -25,32 +25,26 @@
         display: none;
     }
 
-    .historia {
+    .historia{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         margin: 30px;
         margin-left: 50px;
         margin-right: 50px;
         text-align: center;
     }
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        background-color: darkgreen;
-        padding: 20px;
+    .introduccion__in{
+        font-size: 25px
     }
 
-    .form__footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 5px;
-        color: white;
-        background-color: darkgreen;
-        border: 15px solid rgb(255, 217, 0);
+    .introduccion__ba{
+        font-size: 20px;
+    }
+
+    .introducion__p{
+        font-size: 14px
     }
 
     .colum--hab{
@@ -96,6 +90,35 @@
         display: none;
     }
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: darkgreen;
+        padding: 20px;
+    }
+
+    .form__footer {
+        display: flex;
+        flex-direction: column;
+        columns: 12;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        color: white;
+        background-color: darkgreen;
+        border: 15px solid rgb(255, 217, 0);
+    }
+
+    .p__footer{
+        display: flex;
+        flex-direction: column;
+        columns: 12;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+    }
+
     .expfooter {
         display: flex;
         flex-direction: column;
@@ -106,13 +129,47 @@
         padding-bottom: 5px;
     }
 
+    .rs_footer {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        columns: 12;
+        background-color: white;
+        justify-content: space-around;
+    }
+
     .distinguir {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
+    }
+
+    .distinguidos {
+        display: flex;
+        flex-direction: column;
+        border: 20px;
+        margin: 5px;
+        margin-left: 35px;
+        margin-right: 35px;
     }
 }
 
 @media (min-width:576px) {
+    .distinguir {
+        padding-top: 5px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .distinguidos{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
     .row--index {
         display: flex;
         position: sticky;
@@ -136,9 +193,21 @@
         display: flex;
         flex-direction: column;
         margin: 30px;
-        margin-left: 130px;
-        margin-right: 130px;
+        margin-left: 100px;
+        margin-right: 100px;
         text-align: center;
+    }
+
+    .introduccion__in{
+        font-size: 30px
+    }
+
+    .introduccion__ba{
+        font-size: 24px;
+    }
+
+    .introducion__p{
+        font-size: 16px
     }
 
     .row__dis--hab {
@@ -179,15 +248,6 @@
         padding-bottom: 50px;
     }
 
-    footer {
-        padding: 30px;
-    }
-
-    .form__footer {
-        padding-left: 30px;
-        padding-right: 30px;
-        border: 20px solid rgb(255, 217, 0);
-    }
 
     .colum--hab{
         display: none;
@@ -205,6 +265,7 @@
 
     .doble{
         display: none;
+
     }
 
     .triple{
@@ -213,10 +274,22 @@
         justify-content: center;
     }
 
-    .distinguir {
-        padding-top: 5px;
-        padding-left: 70px;
-        padding-right: 70px;
+    footer {
+        flex-direction: row;
+    }
+
+    .form__footer {
+        columns: 5;
+    }
+
+    .p__footer{
+        columns: 6;
+    }
+
+    .rs_footer {
+        width: 15%;
+        flex-direction: column;
+        columns: 1;
     }
 }
 
@@ -229,7 +302,7 @@
     }
 
     .historia {
-        margin: 30px;
+        margin: 50px;
         margin-left: 200px;
         margin-right: 200px;
         text-align: center;
@@ -259,12 +332,38 @@
     .distinto {
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
 
-.cambio {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50rem;
+    .distinguir {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .distinguidos {
+        width: 20rem;
+        flex-direction: column;
+        border: 20px;
+        margin: 5px;
+    }
+    
+    .introduccion__in{
+        font-size: 40px
+    }
+
+    .introduccion__ba{
+        font-size: 26px;
+    }
+
+    .introduccion__ba--ba{
+        font-size: 24px;
+    }
+
+    .introducion__p{
+        font-size: 20px
+    }
+
+    .introduccion__p--p{
+        font-size: 17px;
+    }
 }
 
 body {
@@ -338,30 +437,10 @@ header {
     margin-bottom: 30px;
 }
 
-.distinguidos {
-    display: flex;
-    flex-direction: column;
-    border: 20px;
-    margin: 5px;
-}
-
 .introducion__p {
     color: rgb(124, 124, 124);
 }
 
-.p__footer {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    color: white;
-}
-
-.rs_footer {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .experiencias {
     display: grid;
