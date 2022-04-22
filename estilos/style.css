@@ -148,26 +148,40 @@
         display: flex;
         flex-direction: column;
         border: 20px;
-        margin: 5px;
+        margin: 10px;
         margin-left: 35px;
         margin-right: 35px;
     }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 20px;
+        margin: 10px;
+    }
+
+    .collage{
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
 
 @media (min-width:576px) {
     .distinguir {
         padding-top: 5px;
-        padding-bottom: 30px;
+        padding-bottom: 5px;
         padding-left: 50px;
         padding-right: 50px;
     }
 
     .distinguidos{
-        display: flex;
-        justify-content: center;
+        width: 75%;
+        flex-direction: row;
         margin-left: 0px;
         margin-right: 0px;
-
     }
 
     .row--index {
@@ -190,12 +204,8 @@
     }
 
     .historia {
-        display: flex;
-        flex-direction: column;
-        margin: 30px;
         margin-left: 100px;
         margin-right: 100px;
-        text-align: center;
     }
 
     .introduccion__in{
@@ -272,6 +282,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 20px;
     }
 
     footer {
@@ -339,10 +350,9 @@
     }
 
     .distinguidos {
-        width: 20rem;
         flex-direction: column;
         border: 20px;
-        margin: 5px;
+        margin: 10px;
     }
     
     .introduccion__in{
@@ -363,6 +373,11 @@
 
     .introduccion__p--p{
         font-size: 17px;
+    }
+
+    .collage{
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
@@ -412,12 +427,6 @@ header {
     display: flex;
     margin: 5px;
     padding: 5px;
-}
-
-.card {
-    display: flex;
-    margin-top: 30px;
-    background-color:rgb(255, 251, 208);
 }
 
 .tarifa {

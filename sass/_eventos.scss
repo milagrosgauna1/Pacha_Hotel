@@ -1,0 +1,37 @@
+@media (min-width:0px){
+    .historia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    
+        .introducion__p{
+            font-size: 14px
+        }
+    }
+}
+
+@media (min-width:576px){
+    .historia {
+        margin-left: 100px;
+        margin-right: 100px;
+        .introducion__p{
+            font-size: 16px
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .historia {
+        margin: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+        .introducion__p{
+            font-size: 20px
+        }
+    }
+}
