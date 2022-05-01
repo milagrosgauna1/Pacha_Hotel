@@ -44,6 +44,7 @@ header {
   .row__dis--hab {
     display: flex;
     flex-direction: column;
+    background-color: white;
     margin-top: 5px; }
   .colum--hab {
     display: flex;
