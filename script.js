@@ -36,3 +36,5 @@ console.log(array)
 
 const miArray = [Producto]
 console.log (myArray.length);
+
+console.log(producto.filter(producto => producto.stock >= 5))
