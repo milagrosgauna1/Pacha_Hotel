@@ -1,4 +1,4 @@
-let nombreApellido = prompt("Nombre y apellido de quien reserva");
+/*let nombreApellido = prompt("Nombre y apellido de quien reserva");
 if (nombreApellido == ""){
     alert ("No olvides ingresar tu nombre y apellido");
 }
@@ -37,4 +37,16 @@ console.log(array)
 const miArray = [Producto]
 console.log (myArray.length);
 
-console.log(producto.filter(producto => producto.stock >= 5))
+console.log(producto.filter(producto => producto.stock >= 5)) */
+
+console.log(document)
+
+let tituloCreado = document.createElement("h1")
+
+tituloCreado.innerText = "Reserva tu mesa"
+tituloCreado.id = "tituloCreado"
+
+tituloCreado.prepend(tituloCreado)
+
+
+
