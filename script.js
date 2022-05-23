@@ -50,3 +50,14 @@ tituloCreado.prepend(tituloCreado)
 
 
 
+
+let habEstandar = document.getElementById("habEstandar")
+let habEstandarDesayuno = document.getElementById("habEstandarDesayuno")
+
+habEstandar.addEventListener("click", () =>{
+    console.log("Reservar esta habitacion")
+})
+
+habEstandarDesayuno.addEventListener("click", () =>{
+    console.log("Reservar esta habitacion")
+})
