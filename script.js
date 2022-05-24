@@ -61,3 +61,10 @@ habEstandar.addEventListener("click", () =>{
 habEstandarDesayuno.addEventListener("click", () =>{
     console.log("Reservar esta habitacion")
 })
+
+
+
+
+let arrayHabitaciones = [{tipo: "estandar"}, {tipo: "suite"}, {tipo: "micro"}, {tipo: "familiar"}, {tipo: "compartida"}]
+let HabitaionesJSON = JSON.stringify(arrayHabitaciones)
+console.log(HabitaionesJSON)
