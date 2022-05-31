@@ -68,3 +68,10 @@ habEstandarDesayuno.addEventListener("click", () =>{
 let arrayHabitaciones = [{tipo: "estandar"}, {tipo: "suite"}, {tipo: "micro"}, {tipo: "familiar"}, {tipo: "compartida"}]
 let HabitaionesJSON = JSON.stringify(arrayHabitaciones)
 console.log(HabitaionesJSON)
+
+
+
+
+fetch("https://criptoya.com/api/dolar")
+.then(Response => response.json())
+.then(data => console.log(data))
